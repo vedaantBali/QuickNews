@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:quick_news/helper/data.dart';
-import 'package:quick_news/helper/news.dart';
+import 'package:quick_news/controller/data.dart';
+import 'package:quick_news/controller/news.dart';
 import 'package:quick_news/models/article_model.dart';
 import 'package:quick_news/models/category_model.dart';
 import 'package:quick_news/views/article_view.dart';

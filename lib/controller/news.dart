@@ -67,30 +67,4 @@ class News {
   }
 }
 
-// class CategoryNews {
-//   List<ArticleModel> news = [];
 
-//   Future<void> getNews(String category) async {
-//     String url = 'https://newsapi.org/v2/top-headlines?&country=in&category=' +
-//         '$category&apiKey=92dde0a8775f42938294b5a8d3d7a082';
-
-//     var response = await http.get(Uri.parse(url));
-
-//     var responseData = jsonDecode(response.body);
-
-//     if (responseData['status'] == 'ok') {
-//       responseData['articles'].forEach((element) {
-//         if (element['urlToImage'] != null && element['description'] != null) {
-//           ArticleModel articleModel = new ArticleModel(
-//               title: element['title'],
-//               author: element['author'],
-//               description: element['description'],
-//               url: element['url'],
-//               urlToImage: element['urlToImage'],
-//               content: element['content']);
-//           news.add(articleModel);
-//         }
-//       });
-//     }
-//   }
-// }
